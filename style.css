@@ -1,0 +1,47 @@
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 14px;
+}
+/* description part start */
+
+#description{
+    background-image: url(./image/donation9.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    
+}
+.description_item {
+    text-align: center;
+    color: yellow;
+    padding: 35px 50px;
+    margin-bottom: 100px;
+}
+.description_item a{
+    font-weight: 600;
+    
+    
+}
+.description_item p{
+    padding-bottom: 50px ;
+    
+}
+.linkButton{
+    background: #f05209;
+    color: #f2faf4;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+   
+}
+/* description part end */
