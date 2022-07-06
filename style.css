@@ -12,7 +12,7 @@ p{
     font-size: 14px;
 }
 h2{
-    font-size: 36px;
+    font-size: 37px;
 }
 h3{
     font-size: 25px;
@@ -47,7 +47,8 @@ h3{
     
 }
 .linkButton{
-    background: #f05209;
+    /* background: #f05209; */
+    background: #0a9c4c;
     color: #f2faf4;
     text-decoration: none;
     padding: 12px 25px;
@@ -69,7 +70,7 @@ h3{
     text-align: center;
 }
 #amount_section p{
-    color: rgb(83, 82, 82);
+    color: #535252;
     text-align: center;
     font-weight: 700;
     /* padding-top: 20px; */
@@ -109,3 +110,84 @@ h3{
 } 
 
 /* Donate today part end */
+/* donation plan start */
+#donate_plan {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#donate_plan .basic_need{
+    width: 100%;
+}
+#donate_plan h2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+#donate_plan p{
+    
+    text-align: center;
+    margin-bottom: 35px;
+    font-weight: 600;
+    color: #535252;
+    
+
+}
+#donate_plan .basic_need .food{
+   
+    background: #8fd1da85;
+    border: 1px solid rgb(13, 90, 20);
+    width: 25%;
+    padding: 40px 15px;
+    margin-right: 1%;
+}
+#donate_plan .basic_need .shelter{
+    background: #e7acac8c;
+    border: 1px solid rgb(6, 50, 61);
+    width: 25%;
+    padding: 40px 15px;
+    margin-right: 1%;
+}
+#donate_plan .basic_need .education{
+    background: #15c98d4f;
+    border: 1px solid rgb(20, 78, 5);
+    width: 25%;
+    padding: 40px 15px;
+    margin-right: 1%;
+    
+}
+
+/* donation plan end */
+/* Update section start */
+#update_section .update{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#update_section .update p{
+    padding-bottom: 40px;
+    font-weight: 700;
+    color: #535252;
+    
+}
+form{
+    background: #8b82827c;
+    width: 500px;
+    justify-content: center;
+    padding: 50px 40px;
+    margin: 0 auto;
+}
+form input{
+   padding: 10px 15px;
+   border-radius: 5px;
+   
+}
+
+/* Update section end */
+/* footer start */
+footer{
+    background: rgb(91, 168, 149);
+    text-align: center;
+    padding: 10px 0;
+}
+footer h2{
+    font-family:  'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* footer end */
