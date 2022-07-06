@@ -17,10 +17,12 @@ h2{
 h3{
     font-size: 25px;
 }
-.block_content{
-    display: block;
+.flexible_content{
+    display: flex;
     justify-content: center;
+    
 }
+
 /* description part start */
 
 #description{
@@ -58,11 +60,7 @@ h3{
 
 /* description part end */
 /* Donate today part start */
-.flexible_content{
-    display: flex;
-    justify-content: center;
-    
-}
+
 #amount_section h2{
     
     font-weight: 700;
@@ -84,6 +82,7 @@ h3{
     padding: 12px 20px;
     margin-right: 20px;
     margin-bottom: 50px;
+    border-radius: 5px;
 }
 .ammount .digit{
     background: #6be3f3fb;
@@ -156,10 +155,30 @@ h3{
 }
 
 /* donation plan end */
-/* Update section start */
+/* Team section start */
+#team_section {
+    background: #03aff37a;
+    
+}
+#team_section .team_txt{
+    text-align: center;
+    
+}
+#team_section .team_heading{
+    padding: 25px 0;
+    /* margin:  15px 0; */
+}
+#team_section .team_members{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+/* Update section end */
 #update_section .update{
     text-align: center;
     margin-bottom: 50px;
+    margin-top: 60px;
 }
 #update_section .update p{
     padding-bottom: 40px;
@@ -183,11 +202,13 @@ form input{
 /* Update section end */
 /* footer start */
 footer{
-    background: rgb(91, 168, 149);
+    
+    background: #0a5844;
     text-align: center;
     padding: 10px 0;
 }
 footer h2{
     font-family:  'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 196, 0);
 }
 /* footer end */
