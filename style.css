@@ -53,6 +53,7 @@ h3{
 .linkButton{
     /* background: #f05209; */
     background: #0a9c4c;
+    /* background-image: linear-gradient(#f05209 #0a9c4c); */
     color: #f2faf4;
     text-decoration: none;
     padding: 12px 25px;
@@ -201,9 +202,15 @@ form{
     margin: 0 auto;
 }
 form input{
-   padding: 10px 15px;
+   padding: 11px 20px;
    border-radius: 5px;
+   border-style: none;
    
+   
+}
+form button{
+    border-style: none;
+    
 }
 
 /* Update section end */
@@ -217,5 +224,6 @@ footer{
 footer h2{
     font-family:  'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(255, 196, 0);
+    
 }
 /* footer end */
