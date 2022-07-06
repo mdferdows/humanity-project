@@ -26,11 +26,13 @@ h3{
 /* description part start */
 
 #description{
+    
     background-image: url(./image/donation9.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 500px;
+   
     
 }
 .description_item {
@@ -60,12 +62,16 @@ h3{
 
 /* description part end */
 /* Donate today part start */
-
+#amount_section{
+    background: rgba(16, 231, 9, 0.075);
+    padding: 40px 0;
+}
 #amount_section h2{
     
     font-weight: 700;
     color: #000;
     text-align: center;
+    
 }
 #amount_section p{
     color: #535252;
@@ -85,9 +91,10 @@ h3{
     border-radius: 5px;
 }
 .ammount .digit{
-    background: #6be3f3fb;
+    /* background: #6be3f3fb; */
+    background: #09f3a52d;
     color: #000;
-    border: 2px solid rgb(19, 168, 31);
+    border: 2px solid #13a81f;
 }
 #amount_section .other_amount  {
     display: flex;
@@ -111,7 +118,7 @@ h3{
 /* Donate today part end */
 /* donation plan start */
 #donate_plan {
-    margin-top: 100px;
+    margin-top: 60px;
     margin-bottom: 100px;
 }
 #donate_plan .basic_need{
